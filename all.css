@@ -1,0 +1,44 @@
+body{
+     font-family: Helvetica, Arial, sans-serif;
+}
+.signin{
+    width: 800px;
+}
+.sidebar{
+    position: fixed;
+    top:0px;
+    left:-350px;
+    height: 100%;
+    width: 320px;
+    background-color: white;
+    overflow: auto;
+    transition:0.3s ;
+    z-index: 1000;
+}
+.header{
+    background-color:#232f3e;
+    color:white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.header span{
+    font-size: 30px;
+    cursor: pointer;
+}
+.content{
+    padding: 20px;
+
+}
+.content h3{
+    margin-top: 20px;
+}
+.content p{
+    padding: 12px 0px;
+    cursor: pointer;
+}
+.content p:hover{
+    background-color: #f3f3f3;
+}
